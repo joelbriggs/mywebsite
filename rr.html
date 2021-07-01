@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Joel Briggs Ruby on Rails Software Developer | All around awesome person</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+    #video1 {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="mdb-preloader" class="flex-center">
+    <div id="preloader-markup"></div>
+  </div>
+    <div class="page">
+      <!-- Mask & flexbox options-->
+      <div class="mask blue-gradient-rgba d-flex justify-content-center align-items-center">
+
+          
+        <!-- Content -->
+        <div class="container">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column-->
+            <div class="col-md-12 mb-5 text-center">
+              <button type="button" class="btn btn-primary" id="unmuteButton">Click Me</button>
+            </div>
+          </div>
+
+          <div style="margin-top: 900px;"></div>
+
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column-->
+            <div class="data col-md-12 mb-5">
+              <video id="video1" controls autoplay fullscreen muted>
+                <source src="assets/videos/Rick-Astley-Never-Gonna-Give-You-Up.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  var myVideo = document.getElementById("video1");
+                  var myButton = document.getElementById("unmuteButton");
+                  myButton.addEventListener('click', function() {
+                    myVideo.scrollIntoView(true);
+                    myVideo.muted = false
+                  });
+                }, false);
+              </script>
+            </div>
+            <!--Grid column -->
+          </div>
+          <!--Grid row-->
+          <div style="margin-top: 900px;"></div>
+        </div>
+        <!-- Content -->
+      </div>
+    </div>
+  </div>
+  <!-- /Start here-->
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
